@@ -1,6 +1,15 @@
+import { useState } from 'react';
+import Card from '../../Components/Card';
+import Layout from '../../Components/Layout';
+
 export default function Home() {
-  return (         
-      <h1>Home</h1>     
+  const [items, setItems] = useState([
+
+  ]);
+  return (
+    <Layout>
+      Home
+      <Card />
+    </Layout>    
   )
 }
-
